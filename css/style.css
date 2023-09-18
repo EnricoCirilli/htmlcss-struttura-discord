@@ -1,8 +1,47 @@
+
+/* Universal rules*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
-body{
-    background-color: aquamarine;
+/* Setting Header */
+.header{
+    background-color: lightblue;
+    min-height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+/* setting Nav bar */
+.nav-bar{
+    display: flex;      
+}
+/* setting ul .deco */
+.deco {
+    display: flex;
+    justify-content:space-around;
+}
+/* appliing list-stile to list*/
+ul li {
+    list-style: none;
+}
+/* applying color and text decoration to a */
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+/* applying dotted bordder and background color */
+div{
+    width: 70%;
+    min-height: 30px;
+    border: 2px dotted black;
+    background-color: darkgoldenrod;
+}
+/* applyiung flex end to login */
+.login{
+    display: flex;
+    justify-content: flex-end;
 }
