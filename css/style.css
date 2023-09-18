@@ -183,5 +183,30 @@ a{
 /* FOOTER */
 .footer{
     background-color: black;
-    
+    min-height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+
+    }
+.box-footer{
+    background-color: rgb(85, 168, 127);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 20px;
+    width: 500px;
+    display: flex;
+    justify-content:space-between
+}
+.logo-footer{
+    background-color: salmon;
+    border: 2px dashed black;
+    padding: 2px;
+}
+.btn-footer{
+    background-color: salmon;
+    border: 2px dashed black;
+    padding: 2px;
 }
