@@ -1,12 +1,12 @@
 
-/* Universal rules*/
+/* U-R*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-/* Setting Header */
+/* HEADER */
 .header{
     background-color: lightblue;
     min-height: 60px;
@@ -14,34 +14,49 @@
     display: flex;
     justify-content: center;
 }
-/* setting Nav bar */
+/* SET NAV BAR*/
 .nav-bar{
     display: flex;      
 }
-/* setting ul .deco */
+/* STILYING LIST AND USING GAP*/
 .deco {
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
+    gap: 10px;
 }
-/* appliing list-stile to list*/
+/* LIST STYLE*/
 ul li {
     list-style: none;
 }
-/* applying color and text decoration to a */
+/* COLOR AND TEXT DECO */
 a{
     color: black;
     text-decoration: none;
     
 }
-/* applying dotted bordder and background color */
-div{
-    width: 70%;
-    min-height: 30px;
-    border: 2px dotted black;
+/* DOTTED BORDER*/
+.space {
+    width: 300px;
+    padding: 15px;
+    border: 1px dashed black;
     background-color: darkgoldenrod;
 }
-/* applyiung flex end to login */
+/* FLE.END TO LOGIN */
 .login{
     display: flex;
     justify-content: flex-end;
+}
+/* FIRST SECTION */
+.section-1{
+    background-color: rgb(18, 18, 126);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+/* PINK BOX */
+.box-1{
+    background-color: rgb(224, 141, 224);
+    width: 600px;
+    min-height: 200px;
+    
 }
