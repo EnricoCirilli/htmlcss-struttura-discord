@@ -36,7 +36,7 @@ a{
 }
 /* DOTTED BORDER*/
 .space {
-    width: 300px;
+    width: 260px;
     padding: 15px;
     border: 1px dashed black;
     background-color: darkgoldenrod;
@@ -46,17 +46,142 @@ a{
     display: flex;
     justify-content: flex-end;
 }
-/* FIRST SECTION */
+/* SECTION 1 */
 .section-1{
     background-color: rgb(18, 18, 126);
     padding: 20px;
     display: flex;
     justify-content: center;
 }
-/* PINK BOX */
+
 .box-1{
     background-color: rgb(224, 141, 224);
     width: 600px;
-    min-height: 200px;
+    min-height: 150px;   
+}
+/* SECTION 2 */
+.section-2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+
+}
+.box-2-1{
+    background-color: rgb(16, 119, 229);
+    width: 400px;
+    min-height: 200px;   
+    border: 1px dashed black;
+    flex-grow: 0.1;
+}
+.box-2-2{
+    background-color: pink;
+    width: 300px;
+    min-height: 200px;  
+    border: 1px dashed black;
+    
+}
+/*  SECTION 3 */
+.section-3{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+}
+.box-3-1{
+    background-color: pink;
+    width: 300px;
+    min-height: 200px;   
+    border: 1px dashed black;
+    }
+.box-3-2{
+    background-color: rgb(16, 119, 229);
+    width: 400px;
+    min-height: 200px;  
+    border: 1px dashed black;
+    flex-grow: 0.1;
+    }
+
+/* SECTION 4 */ 
+.section-4{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+
+}
+.box-4-1{
+    background-color: rgb(16, 119, 229);
+    width: 400px;
+    min-height: 200px;   
+    border: 1px dashed black;
+    flex-grow: 0.1;
+}
+.box-4-2{
+    background-color: pink;
+    width: 300px;
+    min-height: 200px;  
+    border: 1px dashed black;
+}
+    
+
+/* SECTION 5 */
+.section-5{
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.box-5{
+    background-color: green;
+    width: 500px;
+    min-height: 300px; 
+    
+}
+
+/* SECTION 6 */
+.section-6{
+    background-color: rgb(33, 31, 31);
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+}
+.section-6-1{
+    background-color: orangered;
+    height: 200px;
+    width: 100px;
+    border:1px dashed black;
+    flex-grow: 0.1;
+}
+.section-6-2{
+    background-color: rgb(75, 184, 142);
+    height: 200px;
+    width: 100px;
+    border: 1px dashed white;
+}
+.section-6-3{
+    background-color: rgb(75, 184, 142);
+    height: 200px;
+    width: 100px;
+    border: 1px dashed white;
+}
+.section-6-4{
+    background-color: rgb(75, 184, 142);
+    height: 200px;
+    width: 100px;
+    border: 1px dashed white;
+}
+.section-6-5{
+    background-color: rgb(75, 184, 142);
+    height: 200px;
+    width: 100px;
+    border: 1px dashed white;
+}
+
+
+
+/* FOOTER */
+.footer{
+    background-color: black;
     
 }
